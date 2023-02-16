@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class NegativeNumber {
     public static void main(String[] args) {
         int sum = 0;
-        System.out.println("Enter the number");
+        System.out.println("Enter any number");
         for(int i = 0; i <= 100; i++){
             Scanner sc = new Scanner(System.in);
             int num = sc.nextInt();

@@ -8,7 +8,7 @@ public class Factorial {
         // FACTORIAL OF THE NUMBER WITH FOR LOOP
         int num, fact = 1;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
+        System.out.println("Enter any number");
         num = sc.nextInt();
         for(int i = num; i >= 1; i--) {
           fact = fact * i;
